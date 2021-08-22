@@ -1,0 +1,90 @@
+/*******************************
+     User Global Variables
+*******************************/
+@fontPath  : 'inkdrop://default-light-ui/styles/themes/default/assets/fonts';
+@headerFont        : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+@pageFont          : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+@importGoogleFonts : false;
+@useCustomScrollbars: false;
+
+@primaryColor: #6fd5ee;
+@primaryColorFocus: #B362FF;
+@linkHoverColor: #6fd5ee;
+
+
+/*-------------------
+      Side Bar
+--------------------*/
+@sidebarBackground     : @pageBackground;
+@sidebarMenuItemActiveBackground: rgba(0, 0, 0, 0.2);
+@sidebarMenuSectionColor: @lightTextColor;
+@sidebarMenuItemColor  : @textColor;
+@sidebarMenuActionColor : @lightTextColor;
+@sidebarMenuActionHoverColor : @primaryColorFocus;
+@sidebarSyncStatusViewBackground: #1E1E3F;
+@sidebarSyncStatusViewTextColor: @textColor;
+@sidebarSyncStatusViewDetailColor: @lightTextColor;
+@sidebarScrollbarWidth: 6px;
+@sidebarScrollbarTrackBackground: rgba(24, 7, 39, 0.02);
+@sidebarScrollbarThumbBackground: rgba(105, 43, 146, 0.1);
+
+/*-------------------
+      Scroll Bar
+--------------------*/
+@scrollbarWidth: 6px;
+@scrollbarTrackBackground: rgba(25, 11, 41, 0.02);
+@scrollbarThumbBackground: rgba(30, 10, 53, 0.1);
+
+/*-------------------
+      Note List Bar
+--------------------*/
+@noteListBarBackground: #2D2B55;
+@noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
+@noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
+@noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
+@noteListViewItemColor: @mutedTextColor;
+@noteListViewItemSeparatorBorder: 1px solid @violet;
+@noteListViewItemDateColor: @primaryColor;
+@noteListViewItemTagColor: #FF628C; 
+@noteListViewItemActiveBackground: #4D21FC; 
+@noteListViewItemActiveColor: @textColor;
+@noteListViewItemActiveDateColor: @textColor;
+@noteListViewItemActiveTagColor: @textColor;
+@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
+@noteSearchBarBackground: @noteListBarBackground;
+@noteSearchBarBorderBottom: 1px solid @violet;
+@noteSearchBarInputBorder: none;
+@noteSearchBarInputBackground: @inputBackground;
+
+/*-------------------
+      Header Note Menu
+--------------------*/
+@headerNoteMenuBackground: transparent;
+@headerNoteMenuColor: @lightTextColor;
+@headerNoteMenuActionItemActiveBackground: rgba(49, 204, 236, 0.3);
+@headerNoteMenuActionItemActiveBorder: 1px solid rgba(49, 204, 236, 0.8);
+@headerNoteMenuActionItemSeparatorBorder: 1px solid @purple;
+@headerNoteMenuEncryptButtonColor: @yellowTextColor;
+@headerNoteMenuEncryptButtonBackground: @yellowBackground;
+
+/*-------------------
+      Preferences
+--------------------*/
+@preferencesSidebarBackground: @darkerbg;
+@preferencesSidebarItemActiveBackground: rgba(187, 54, 192, 0.2);
+@preferencesViewBackground: @darkbg;
+
+/*-------------------
+      Task Icons
+--------------------*/
+@taskIconActive: darkgray;
+@taskIconOnHold: orange;
+@taskIconCompleted: limegreen;
+@taskIconDropped: lightcoral;
+
+/*-------------------
+  Task Progress View
+--------------------*/
+@taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
+@taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
+@taskProgressViewCompletedColor: rgb(50, 205, 50);

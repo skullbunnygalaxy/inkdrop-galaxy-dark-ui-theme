@@ -7,9 +7,10 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #3ff3fc;
+@primaryColor: #9120fa;
 @primaryColorFocus: #B362FF;
 @linkHoverColor: #6fd5ee;
+@primaryColorDark: #4b33ab;
 
 
 /*-------------------
@@ -44,7 +45,7 @@
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
 @noteListViewItemColor: @mutedTextColor;
 @noteListViewItemSeparatorBorder: 1px solid @violet;
-@noteListViewItemDateColor: @primaryColor;
+@noteListViewItemDateColor: @linkHoverColor;
 @noteListViewItemTagColor: #FF628C; 
 @noteListViewItemActiveBackground: #4D21FC; 
 @noteListViewItemActiveColor: @textColor;
@@ -86,5 +87,5 @@
   Task Progress View
 --------------------*/
 @taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
-@taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewForegroundColor: rgba(255, 243, 107, 0.9);
+@taskProgressViewCompletedColor: rgb(0, 224, 172);

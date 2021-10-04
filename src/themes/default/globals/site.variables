@@ -259,7 +259,7 @@
 @offWhite         : #353579;
 @darkWhite        : #F3F4F5;
 @midWhite         : #DCDDDE;
-@white            : #c0edef;
+@white            : #c2fcff;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
